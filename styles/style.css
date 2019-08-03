@@ -16,6 +16,8 @@ body {
   right: 0px;
   font-size: 55px;
   border: 3px solid darkgreen;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-bottom: 55px;
   margin: 3px;
 }
@@ -47,25 +49,27 @@ p {
 }
 #content-section1 {
   margin: 3px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right:10px;
   border: 3px solid darkgreen;
   padding: 10px;
 }
 #content-section2 {
   margin: 3px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right:10px;
   border: 3px solid darkgreen;
   padding: 10px;
 }
 #content-section3 {
   margin: 3px;
   margin-top: 40px;
+  margin-left: 10px;
+  margin-right:10px;
   border: 3px solid darkgreen;
   padding: 10px;
-  border-radius: 25%;
   margin-bottom: 20px;
 }
-#menu3 {
-  text-align: center;
-}
-#menu3section {
-  text-align: center;
-}
+
