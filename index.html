@@ -17,7 +17,8 @@
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
-    <script type="text/javascript" src="scripts/script.js"></script>
+
+    <script type="text/javascript" src="js\actions.js"></script>
     <script src="https://kit.fontawesome.com/609b7a20a3.js"></script>
   </head>
   <body>
@@ -28,21 +29,25 @@
           src="images/Logo.png"
           class="img-responsive img-fluid"
           alt="logo"
-          width="130"
-          height="130"
+          width="105"
+          height="105"
         />
+        <div>
+          <h1>Title</h1>
+        </div>
         <nav class="nav">
-          <a class="btn btn-warning" href="#menu1">Menu1</a>
-          <a class="btn btn-warning" href="#menu2">Menu2</a>
-          <a class="btn btn-warning" href="#menu3"
+          <a class="btn" href="#menu1">Menu1</a>
+          <a class="btn" href="#menu2">Menu2</a>
+          <a class="btn" href="#menu3"
             ><i class="far fa-address-book"></i> Kapcsolat</a
           >
         </nav>
-        <h1>Title</h1>
       </div>
+
       <div id="content-section1">
         <h2 id="menu1">Menu1</h2>
-        <section>
+        <button id="accordion1" class="accordion">Section1</button>
+        <div class="panel">
           <p>
             Contenttext,ContenttextContenttextContenttextContenttextContenttextContenttext
           </p>
@@ -52,7 +57,19 @@
           <p>
             Contenttext,ContenttextContenttextContenttextContenttextContenttextContenttext
           </p>
-        </section>
+        </div>
+        <button id="accordion2" class="accordion">Section2</button>
+        <div class="panel">
+          <p>
+            Contenttext,ContenttextContenttextContenttextContenttextContenttextContenttext
+          </p>
+          <p>
+            Contenttext,ContenttextContenttextContenttextContenttextContenttextContenttext
+          </p>
+          <p>
+            Contenttext,ContenttextContenttextContenttextContenttextContenttextContenttext
+          </p>
+        </div>
       </div>
       <div id="content-section2">
         <h2 id="menu2">Menu2</h2>

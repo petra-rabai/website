@@ -5,42 +5,68 @@ body {
 }
 #header-img {
   float: left;
-  padding: 10px;
-  border: 2px solid darkgreen;
+  border: 2px solid rgb(8, 59, 102);
   border-radius: 15%;
-  margin: 15px;
+  margin-top: -24px;
+  margin-left: -22px;
 }
 #header {
-  text-align: center;
-  left: 0px;
-  right: 0px;
   font-size: 55px;
-  border: 3px solid darkgreen;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 55px;
-  margin: 3px;
+  box-shadow: 5px 5px 5px 5px rgb(8, 59, 102);
+  margin: 15px;
+  padding: 30px;
 }
 .nav {
   float: right;
-  margin-top: 60px;
-  margin-right: 20px;
+  margin-top: -45px;
+}
+.accordion {
+  background-color: rgb(223, 210, 194);
+  color: rgb(8, 59, 102);
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border: 2px solid rgb(8, 59, 102);
+  font-family: "Literata", serif;
+}
+.accordion:after {
+  font-size: 13px;
+  color: rgb(8, 59, 102);
+  float: right;
+  margin-left: 5px;
+}
+#accordion1{
+  margin-bottom: 20px;
+}
+.panel {
+  padding: 0 18px;
+  background-color: rgb(223, 210, 194);
+  display: none;
+  overflow: hidden;
+}
+.active,
+.accordion:hover {
+  background-color: rgb(255, 204, 0);
 }
 .btn {
   margin-left: 10px;
-  border: 2px solid darkgreen;
-  border-radius: 25%;
-  color: blue;
+  border: 2px solid rgb(8, 59, 102);
+  border-radius: 15%;
+  color: rgb(8, 59, 102);
+  background-color: rgb(255, 204, 0);
   font-size: 17px;
 }
 h1 {
-  text-align: center;
-  margin-top: 50px;
-  color: rgb(24, 24, 173);
+  color: rgb(8, 59, 102);
   font-family: "Literata", serif;
+  text-align: center;
 }
 h2 {
-  color: rgb(24, 24, 173);
+  color: rgb(8, 59, 102);
   font-family: "Literata", serif;
   margin-bottom: 40px;
 }
@@ -51,25 +77,24 @@ p {
   margin: 3px;
   margin-top: 40px;
   margin-left: 10px;
-  margin-right:10px;
-  border: 3px solid darkgreen;
+  margin-right: 10px;
+  border: 3px solid rgb(8, 59, 102);
   padding: 10px;
 }
 #content-section2 {
   margin: 3px;
   margin-top: 40px;
   margin-left: 10px;
-  margin-right:10px;
-  border: 3px solid darkgreen;
+  margin-right: 10px;
+  border: 3px solid rgb(8, 59, 102);
   padding: 10px;
 }
 #content-section3 {
   margin: 3px;
   margin-top: 40px;
   margin-left: 10px;
-  margin-right:10px;
-  border: 3px solid darkgreen;
+  margin-right: 10px;
+  border: 3px solid rgb(8, 59, 102);
   padding: 10px;
   margin-bottom: 20px;
 }
-
