@@ -31,6 +31,7 @@ body {
   outline: none;
   transition: 0.4s;
   border: 2px solid rgb(8, 59, 102);
+  border-radius: 25px;
   font-family: "Literata", serif;
 }
 .accordion:after {
@@ -55,10 +56,13 @@ body {
 .btn {
   margin-left: 10px;
   border: 2px solid rgb(8, 59, 102);
-  border-radius: 15%;
+  border-radius: 25px;
   color: rgb(8, 59, 102);
   background-color: rgb(255, 204, 0);
   font-size: 17px;
+}
+#accordion2{
+  margin-bottom:15px;
 }
 h1 {
   color: rgb(8, 59, 102);
@@ -79,6 +83,7 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   border: 3px solid rgb(8, 59, 102);
+  border-radius: 25px;
   padding: 10px;
 }
 #content-section2 {
@@ -87,6 +92,7 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   border: 3px solid rgb(8, 59, 102);
+  border-radius: 25px;
   padding: 10px;
 }
 #content-section3 {
@@ -95,6 +101,7 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   border: 3px solid rgb(8, 59, 102);
+  border-radius: 25px;
   padding: 10px;
   margin-bottom: 20px;
 }
