@@ -3,6 +3,7 @@ body {
   background-color: rgb(223, 210, 194);
   border: 10px solid rgb(255, 204, 0);
 }
+
 #header-img {
   float: left;
   border: 2px solid rgb(8, 59, 102);
@@ -10,16 +11,19 @@ body {
   margin-top: -24px;
   margin-left: -22px;
 }
+
 #header {
   font-size: 55px;
   box-shadow: 5px 5px 5px 5px rgb(8, 59, 102);
   margin: 15px;
   padding: 30px;
 }
+
 .nav {
   float: right;
   margin-top: -45px;
 }
+
 .accordion {
   background-color: rgb(223, 210, 194);
   color: rgb(8, 59, 102);
@@ -34,25 +38,30 @@ body {
   border-radius: 25px;
   font-family: "Literata", serif;
 }
+
 .accordion:after {
   font-size: 13px;
   color: rgb(8, 59, 102);
   float: right;
   margin-left: 5px;
 }
-#accordion1{
+
+#accordion1 {
   margin-bottom: 20px;
 }
+
 .panel {
   padding: 0 18px;
   background-color: rgb(223, 210, 194);
   display: none;
   overflow: hidden;
 }
+
 .active,
 .accordion:hover {
   background-color: rgb(255, 204, 0);
 }
+
 .btn {
   margin-left: 10px;
   border: 2px solid rgb(8, 59, 102);
@@ -61,22 +70,27 @@ body {
   background-color: rgb(255, 204, 0);
   font-size: 17px;
 }
-#accordion2{
-  margin-bottom:15px;
+
+#accordion2 {
+  margin-bottom: 15px;
 }
+
 h1 {
   color: rgb(8, 59, 102);
   font-family: "Literata", serif;
   text-align: center;
 }
+
 h2 {
   color: rgb(8, 59, 102);
   font-family: "Literata", serif;
   margin-bottom: 40px;
 }
+
 p {
   font-family: "Raleway", sans-serif;
 }
+
 #content-section1 {
   margin: 3px;
   margin-top: 40px;
@@ -86,6 +100,7 @@ p {
   border-radius: 25px;
   padding: 10px;
 }
+
 #content-section2 {
   margin: 3px;
   margin-top: 40px;
@@ -95,6 +110,7 @@ p {
   border-radius: 25px;
   padding: 10px;
 }
+
 #content-section3 {
   margin: 3px;
   margin-top: 40px;
