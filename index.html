@@ -35,13 +35,16 @@
         <div>
           <h1>Title</h1>
         </div>
-        <nav class="nav">
+        <nav class="nav" id="myTopnav">
           <a class="btn" href="#menu1">Menu1</a>
           <a class="btn" href="#menu2">Menu2</a>
           <a class="btn" href="#menu3"
             ><i class="far fa-address-book"></i> Kapcsolat</a
           >
           <a class="btn" href="#menu4">Galéria</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
         </nav>
       </div>
 
@@ -110,6 +113,7 @@
                     <img
                       src="images/gallery/macsi1.jpg"
                       style="width:100% ;max-width: 300px;"
+                      class="img-responsive img-fluid"
                     />
                   </div>
       
@@ -117,6 +121,7 @@
                     <img
                       src="images/gallery/macsi2.jpg"
                       style="width:100% ;max-width: 300px;"
+                      class="img-responsive img-fluid"
                     />
                   </div>
       
@@ -124,6 +129,7 @@
                     <img
                       src="images/gallery/macsi3.jpg"
                       style="width:100% ;max-width: 300px;"
+                      class="img-responsive img-fluid"
                     />
                   </div>
                 </div>
@@ -145,6 +151,7 @@
                 src="images/gallery/macsi4.jpg"
                 alt="macsi"
                 style="width:100%;max-width:300px"
+                class="img-responsive img-fluid"
                 onclick="showModal()"
               />
     
@@ -159,6 +166,75 @@
                 <!-- Modal Caption (Image Text) -->
                 <div id="caption"></div>
               </div>
+            </div>
+          </div>
+          <button id="accordion5" class="accordion">Galéria 3</button>
+          <div class="panel">
+            <div id="lightbox-section">
+                <div class="row">
+                    <div class="column">
+                      <img
+                        src="images/gallery/macsi4.jpg"
+                        onclick="openModal();currentSlide(1)"
+                        class="hover-shadow img-responsive img-fluid"
+                        style="max-width: 300px;"
+                      />
+                    </div>
+                    <div class="column">
+                      <img
+                        src="images/gallery/macsi5.jpg"
+                        onclick="openModal();currentSlide(2)"
+                        class="hover-shadow img-responsive img-fluid"
+                        style="max-width: 300px;"
+                      />
+                    </div>
+                    <div class="column">
+                      <img
+                        src="images/gallery/macsi6.jpg"
+                        onclick="openModal();currentSlide(3)"
+                        class="hover-shadow img-responsive img-fluid"
+                        style="max-width: 300px;"
+                      />
+                    </div>
+                    <div class="column">
+                      <img
+                        src="images/gallery/macsi1.jpg"
+                        onclick="openModal();currentSlide(4)"
+                        class="hover-shadow img-responsive img-fluid"
+                        style="max-width: 300px;"
+                      />
+                    </div>
+                  </div>
+        
+                  <!-- The Modal/Lightbox -->
+                  <div id="myModalbox" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                      <div class="mySlidesbox">
+                        
+                        <img src="images/gallery/macsi4.jpg" class="img-responsive img-fluid" style="width:100%;" />
+                      </div>
+        
+                      <div class="mySlidesbox">
+                        
+                        <img src="images/gallery/macsi5.jpg" class="img-responsive img-fluid" style="width:100%;" />
+                      </div>
+        
+                      <div class="mySlidesbox">
+                        
+                        <img src="images/gallery/macsi6.jpg" class="img-responsive img-fluid" style="width:100%;" />
+                      </div>
+        
+                      <div class="mySlidesbox">
+                        
+                        <img src="images/gallery/macsi1.jpg" class="img-responsive img-fluid" style="width:100%;" />
+                      </div>
+        
+                      <!-- Next/previous controls -->
+                      <a class="prevarrow" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="nextarrow" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                  </div>
             </div>
           </div>
         </div>
