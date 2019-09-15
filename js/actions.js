@@ -134,13 +134,3 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
 //Lightbox handler end
-//Responsive menu handler start
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "nav") {
-    x.className += "responsive";
-  } else {
-    x.className = "nav";
-  }
-}
-//Responsive menu handler end
