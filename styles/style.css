@@ -47,6 +47,14 @@ body {
 
 }
 
+@media screen and (max-width: 1281px){
+  .nav{
+    float: right;
+    margin-top: -55px;
+    width: 10vw;
+  }
+}
+
 #header {
   box-shadow: 5px 5px 5px 5px rgb(8, 59, 102);
   margin: 15px;
