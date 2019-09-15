@@ -1,7 +1,8 @@
 body {
-  display: auto;
+  display: block;
   background-color: rgb(223, 210, 194);
   border: 10px solid rgb(255, 204, 0);
+  
 }
 
 #header-img {
@@ -10,18 +11,47 @@ body {
   border-radius: 15%;
   margin-top: -24px;
   margin-left: -22px;
+  max-width:100%;
+  height:auto;
 }
+@media screen and (max-width: 800px){
+  #header-img{
+    max-width: 20%;
+  }
+  .btn {
+    display: none;
+  }
+  h2{
+    font-size: 3vw;
+    text-align: center;
+  }
+  .accordion{
+    font-size: 3vw;
+  }
+  p{
+    font-size: 2.2vw;
+  }
+  #myImg{
+    max-width: 100px;
+  }
+  #lightbox-section:img{
+    max-width: 100px;
+  }
 
+}
 #header {
-  font-size: 55px;
   box-shadow: 5px 5px 5px 5px rgb(8, 59, 102);
   margin: 15px;
   padding: 30px;
 }
-
+#myImg{
+  max-width: 300px;
+  
+}
 .nav {
   float: right;
-  margin-top: -45px;
+  margin-top: -55px;
+  width: 33vw;
 }
 
 .accordion {
@@ -77,6 +107,7 @@ h1 {
   color: rgb(8, 59, 102);
   font-family: "Literata", serif;
   text-align: center;
+  font-size: 3vw;
 }
 
 h2 {
