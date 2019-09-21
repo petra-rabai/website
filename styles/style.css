@@ -47,12 +47,14 @@ body {
 
 }
 
-@media screen and (max-width: 1281px){
-  .nav{
-    float: right;
-    margin-top: -55px;
-    width: 10vw;
-  }
+@media screen and (max-width: 1320px){
+ #myTopnav{
+   margin-right: 70px;
+ }
+ h1{
+   margin-right: 80px;
+   margin-left: -100px;
+ }
 }
 
 #header {
