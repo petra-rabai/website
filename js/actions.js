@@ -58,7 +58,7 @@ function showSlidesdot(n) {
     slideIndex = slides.length;
   }
   
-  imageshow.style.display = "none";
+ // imageshow.style.display = "none";
   
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
