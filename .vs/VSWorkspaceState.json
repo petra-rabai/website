@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cypress",
+    "\\cypress\\integration",
+    "\\js"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\cypress\\integration\\cypress_test.js",
   "PreviewInSolutionExplorer": false
 }
